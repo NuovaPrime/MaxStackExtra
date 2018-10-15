@@ -1,0 +1,3 @@
+author = NuovaPrime
+version = 1.0.0
+displayName = Max Stack Plus Extra
