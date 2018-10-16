@@ -1,3 +1,4 @@
 author = NuovaPrime
-version = 1.0.0
+version = 1.0.2
 displayName = Max Stack Plus Extra
+homepage = https://forums.terraria.org/index.php?threads/max-stack-plus-extra.73606/

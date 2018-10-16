@@ -1,1 +1,10 @@
 Makes all items stack up to 9999, this includes weapons, accessories and everything else, this is not designed for regular play as it breaks prefixes and some mod data.
+
+Changelog:
+
+
+V1.0.1
+- Added Mod Icon
+
+V1.0.0
+- Release
