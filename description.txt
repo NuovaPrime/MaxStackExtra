@@ -1,6 +1,11 @@
-Makes all items stack up to 9999, this includes weapons, accessories and everything else, this is not designed for regular play as it breaks prefixes and some mod data.
+Makes the stacking of items configurable and easily changable.
 
 Changelog:
+
+V1.1.0
+- Migrated to 0.11
+- Made all stack changes completely configurable via modconfig. All weapons and equippables default to a stack of 1 with everything else defaulting to 9999.
+- Made coins use original stacking
 
 V1.0.2
 - Added Homepage
