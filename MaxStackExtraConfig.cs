@@ -25,6 +25,13 @@ namespace MaxStackExtra
         [DefaultValue(9999)]
         public int ItemStackValue { get; set; }
 
+        [Label("Maximum stack for tiles")]
+        [Tooltip("Configure the maximum stack size for tiles.")]
+        [ReloadRequired]
+        [Range(0, int.MaxValue)]
+        [DefaultValue(9999)]
+        public int TileStackValue { get; set; }
+
         [Header("[c/ff0000:WARNING: May break prefixes and internal item data.]")]
         [Label("Maximum stack for weapons")]
         [Tooltip("Configure the maximum stack size for weapons.")]
