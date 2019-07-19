@@ -2,6 +2,9 @@ Makes the stacking of items configurable and easily changable.
 
 Changelog:
 
+V1.1.0.1
+- Fixed bug with coins not stacking correctly.
+
 V1.1.0
 - Migrated to 0.11
 - Made all stack changes completely configurable via modconfig. All weapons and equippables default to a stack of 1 with everything else defaulting to 9999.
