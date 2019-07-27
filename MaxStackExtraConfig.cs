@@ -46,5 +46,12 @@ namespace MaxStackExtra
         [Range(0, int.MaxValue)]
         [DefaultValue(1)]
         public int EquipStackValue { get; set; }
+
+        [Label("Maximum stack for special items")]
+        [Tooltip("Configure the maximum stack size for unique items like the portable storage bags or items that require 1 stack to work.")]
+        [ReloadRequired]
+        [Range(0, int.MaxValue)]
+        [DefaultValue(1)]
+        public int SpecialStackValue { get; set; }
     }
 }
