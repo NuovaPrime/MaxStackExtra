@@ -17,16 +17,16 @@ namespace MaxStackExtra
                 if (item.maxStack > 1)
                 {
                     if (item.createTile > 0)
-                        item.maxStack = mod.GetConfig<MaxStackExtraConfig>().TileStackValue;
+                        item.maxStack = ModContent.GetInstance<MaxStackExtraConfig>().TileStackValue;
                     else
-                        item.maxStack = mod.GetConfig<MaxStackExtraConfig>().ItemStackValue;
+                        item.maxStack = ModContent.GetInstance<MaxStackExtraConfig>().ItemStackValue;
                 }
                 else if (item.accessory || item.defense > 0)
-                    item.maxStack = mod.GetConfig<MaxStackExtraConfig>().EquipStackValue;
+                    item.maxStack = ModContent.GetInstance<MaxStackExtraConfig>().EquipStackValue;
                 else if (item.damage > 0)
-                    item.maxStack = mod.GetConfig<MaxStackExtraConfig>().WeaponStackValue;
+                    item.maxStack = ModContent.GetInstance<MaxStackExtraConfig>().WeaponStackValue;
                 else
-                    item.maxStack = mod.GetConfig<MaxStackExtraConfig>().SpecialStackValue;
+                    item.maxStack = ModContent.GetInstance<MaxStackExtraConfig>().SpecialStackValue;
             }
             else
                 base.SetDefaults(item);
